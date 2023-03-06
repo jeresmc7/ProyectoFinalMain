@@ -1,0 +1,46 @@
+{% extends 'Musicapp/main.html' %}
+{% load static %}
+
+{% block titulo %}
+    Acerca de mi
+{% endblock %}
+
+{% block contenido %}
+<br>
+<br>
+
+    <div class="container">
+       <h2 class="text-center text-light">
+           Acerca de Mi
+       </h2>
+       <br>
+       <div class="row g-4">
+           <div class="col-md-6 col-lg-3">
+               <div class="card bg-success">
+                    <div class="card-body text-center">
+                        <img src="{% static 'imagenes/Face.jpg' %}" class="rounded-circle mb-3" width="150px">
+                    <h3 class="card-title text-dark mb-3">Jeremias Santa Maria Ceccoli</h3>
+                    <p class="card-text text-dark">Systems Software Engineer</p>
+                    <p class="card-text text-dark">Sigueme en:</p>
+                    <a class="text-dark mx-2" href="https://github.com/jeresmc7"><i class="fa fa-github"></i></a>
+                    <a class="text-dark" href="https://www.linkedin.com/in/jeremias-santa-maria-ceccoli/"><i class="fa fa-linkedin" ></i></a>
+                    </div>
+               </div>
+           </div>
+           <div class="col">
+            <div class="">
+                 <div class="text-center">
+                    <p>Hola que tal! Mi nombre es Jeremias. Tengo +3 años de experiencia en el area IT desempeñandome en el área de Data Engineering & Data Analytics</p>
+                 </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+{% endblock %}
