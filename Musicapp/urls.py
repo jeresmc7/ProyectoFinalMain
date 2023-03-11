@@ -27,3 +27,5 @@ urlpatterns = [
 
         path('about/', views.about, name='about'),
         ]
+
+handler404 = 'Musicapp.views.page_not_found_view'

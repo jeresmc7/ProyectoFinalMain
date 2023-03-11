@@ -106,3 +106,8 @@ def password_exitoso(request):
 
 def about(request):
     return render(request, 'Musicapp/about.html', {})
+
+# PAGE NOT FOUND
+
+def page_not_found_view(request, exception):
+    return render(request, 'Musicapp/404.html')
